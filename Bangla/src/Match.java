@@ -12,9 +12,9 @@ public class Match {
 		text=input.nextLine();
 		
 		System.out.println(text);
-			if(text.equals("আমি"))
+			if(text.equals("আমর"))
 			{
-				System.out.println("Right");
+				System.out.println("আমরা");
 				
 			}
 		char [] token = text.toCharArray();
@@ -29,7 +29,7 @@ public class Match {
 			
 		}
 		
-		main(new String[] {"a","b","c"});
+		//main(new String[] {"a","b","c"});
 
 	}
 

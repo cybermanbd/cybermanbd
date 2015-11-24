@@ -21,9 +21,14 @@ public class InputProcessorServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		String Input = request.getParameter("input");
 		
+		request.setCharacterEncoding("UTF-8");
+		String Input = request.getParameter("input");
 		System.out.println(Input);
+		
+		
+		
+
 		
 		
 	}
