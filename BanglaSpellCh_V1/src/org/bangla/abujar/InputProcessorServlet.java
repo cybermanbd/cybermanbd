@@ -28,7 +28,31 @@ public class InputProcessorServlet extends HttpServlet {
 		
 		
 		
-
+		
+		if(Input.equals("অ"))
+		{
+			System.out.println("অংকন");
+			System.out.println("অপমান");
+			System.out.println("অমানুষ");
+			
+		}
+		
+		
+		
+		if(Input.equals("আ"))
+		{
+			System.out.println("আমরা");
+			System.out.println("আমর");
+			System.out.println("আমার");
+			
+		}
+	char [] token = Input.toCharArray();
+	int i;	
+	for(i=0;i<=token.length;i++)
+	{
+		System.out.println(token[i]);
+		
+	}
 		
 		
 	}
